@@ -27,7 +27,7 @@ class PageController extends AbstractController
      */
 
     //creation de la function article
-    public function article($id):Response{
+    public function blog($id):Response{
 
         $articles = [
             1 => 'Article 1',
