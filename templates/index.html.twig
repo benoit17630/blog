@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}index{% endblock %}</title>
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     {% block stylesheets %}
     {% endblock %}
 </head>
 <body>
 {% block body %}
-    <h1 style="color:red ; text-align:center">home page </h1>
+    <h1>home page </h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem beatae blanditiis ex fugiat id inventore itaque laborum minus odio reprehenderit, rerum sed tempora ullam ut vel vero voluptas voluptatem?</p>
 {% endblock %}
 {% block javascripts %}{% endblock %}
