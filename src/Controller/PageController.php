@@ -28,6 +28,7 @@ class PageController extends AbstractController
 
     //creation de la function article
     public function article($id):Response{
+
         $articles = [
             1 => 'Article 1',
             2 => "Article 2",
@@ -39,6 +40,7 @@ class PageController extends AbstractController
 
         // avec la class Response je peut lier ma metode a une page .twig
         return $this->render("blog.html.twig", array(
+
             "title"=>$articles[$id]
         ));
     }
@@ -55,6 +57,7 @@ class PageController extends AbstractController
 
             //si le formulaire n est pas soumis
             return new Response("remplir le formulaire");
+
         }else{
 
             //si le formulaire est soumis je me redirige sur la page avec le name = home
