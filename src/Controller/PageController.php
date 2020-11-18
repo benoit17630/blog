@@ -37,11 +37,12 @@ class PageController extends AbstractController
             5 => "Article 5",
             6 => "Article 6",
         ];
-
+        //ajout de la variable title pour un comit
+         $title=$articles[$id];
         // avec la class Response je peut lier ma metode a une page .twig
         return $this->render("blog.html.twig", array(
 
-            "title"=>$articles[$id]
+            "title"=>$title
         ));
     }
 
