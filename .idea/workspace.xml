@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="ajout de la variable title">
-      <change afterPath="$PROJECT_DIR$/templates/profile.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="creation page profile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +184,7 @@
       <workItem from="1605615020957" duration="16809000" />
       <workItem from="1605638480957" duration="16000" />
       <workItem from="1605648153074" duration="43000" />
-      <workItem from="1605688578225" duration="6648000" />
+      <workItem from="1605688578225" duration="7005000" />
     </task>
     <task id="LOCAL-00001" summary="creation des page blog">
       <created>1605618578037</created>
@@ -240,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605693048793</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="creation page profile">
+      <created>1605698257917</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605698257917</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +266,8 @@
     <MESSAGE value="ajout du dossier assets et quelque espace dans le code pour plus de lisibiliter" />
     <MESSAGE value="creation page blog" />
     <MESSAGE value="ajout de la variable title" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout de la variable title" />
+    <MESSAGE value="creation page profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation page profile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="419" key="#Composer" timestamp="1605614668424">
@@ -283,9 +286,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="745" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605615054130" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605693057370">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605698266050">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605693057370" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605698266050" />
   </component>
 </project>
