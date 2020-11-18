@@ -14,10 +14,11 @@
         <h1>bonjour : {{ firstname }} {{ name }}</h1>
         <h2>vous aver {{ age }} ans</h2>
         <p>Le metier de cette personne est : {{ job }}.</p>
+        <div class="text-center mt-4"><img src="{{ asset('assets/img/ziva.jpg') }}"  alt="photo d emilie" class="img-fluid "></div>
     {% else %}
         <p>vous n ete pas active</p>
     {% endif %}
-   <a class="btn btn-primary " href="{{ path('home') }}">page d index</a>
+   <a class="btn btn-primary  mt-4" href="{{ path('home') }}">page d index</a>
 
 </div>
 

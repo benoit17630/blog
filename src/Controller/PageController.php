@@ -105,7 +105,6 @@ class PageController extends AbstractController
         ];
         return $this->render('profile2.html.twig',[
             'profile'=>$profile
-            ]
-        );
+        ]);
     }
 }
