@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="ajout du dossier assets et quelque espace dans le code pour plus de lisibiliter">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +187,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605614545148</updated>
       <workItem from="1605614546348" duration="452000" />
-      <workItem from="1605615020957" duration="10054000" />
+      <workItem from="1605615020957" duration="16809000" />
+      <workItem from="1605638480957" duration="16000" />
+      <workItem from="1605648153074" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="creation des page blog">
       <created>1605618578037</created>
@@ -208,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605622765898</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ajout du dossier assets et quelque espace dans le code pour plus de lisibiliter">
+      <created>1605628304375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605628304375</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ajout du dossier assets et quelque espace dans le code pour plus de lisibiliter">
+      <created>1605628379528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605628379528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +242,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creation des page blog" />
@@ -248,9 +267,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="745" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605615054130" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605622773889">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605628384638">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605622773889" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605628384638" />
   </component>
 </project>

@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>{% block title %}index{% endblock %}</title>
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    {% block stylesheets %}
-    {% endblock %}
-</head>
-<body>
-{% block body %}
-    <h1>home page </h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem beatae blanditiis ex fugiat id inventore itaque laborum minus odio reprehenderit, rerum sed tempora ullam ut vel vero voluptas voluptatem?</p>
+{% extends"base.html.twig" %}
+{% block title%}skyblog{% endblock %}
+
+{% block main %}
+    <main>
+        <div class="container">
+            <h1 class="text-center">home page </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem beatae blanditiis ex fugiat id inventore
+                itaque laborum minus odio reprehenderit, rerum sed tempora ullam ut vel vero voluptas voluptatem?</p>
+            <div class="text-center"><img src="{{ asset('assets/img/emilie.jpg') }}"  alt="photo d emilie" class="img-fluid "></div>
+        </div>
+
+            </main>
 {% endblock %}
-{% block javascripts %}{% endblock %}
-</body>
-</html>
+
