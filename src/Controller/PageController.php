@@ -26,7 +26,7 @@ class PageController extends AbstractController
      * @return Response
      */
 
-    //creation de la function article
+    //creation de la metode blog
     public function blog($id):Response{
 
         $articles = [
@@ -37,7 +37,7 @@ class PageController extends AbstractController
             5 => "Article 5",
             6 => "Article 6",
         ];
-        //ajout de la variable title pour un comit
+        //ajout de la variable title pour un commit
          $title=$articles[$id];
         // avec la class Response je peut lier ma metode a une page .twig
         return $this->render("blog.html.twig", array(
@@ -64,5 +64,31 @@ class PageController extends AbstractController
             //si le formulaire est soumis je me redirige sur la page avec le name = home
             return $this->redirectToRoute("home");
         }
+    }
+
+    // je creer une page profile avec la metode profileShow
+    /**
+     * @Route ("/profile", name="profile")
+     */
+
+    public function profileShow(){
+
+// tableau avec un index et plusieur champs
+        $profile = [
+            "firstname" => "Flantier",
+            "name" => "Noel",
+            "age" => 40,
+            "job" => "secret agent",
+            "active" => true
+        ];
+        //je retourne ma vue en affichant un page twig ou je rentre les variable du tableau
+        return $this->render('profile.html.twig',[
+            'name'=>$profile['name'],
+            'firstname'=>$profile['firstname'],
+            'age'=>$profile['age'],
+            'job'=>$profile['job'],
+            'active'=>$profile["active"]
+
+        ]);
     }
 }
