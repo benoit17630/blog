@@ -101,7 +101,7 @@ class PageController extends AbstractController
             "name" => "Noel",
             "age" => 40,
             "job" => "secret agent",
-            "active" => true
+            "active" => false
         ];
         return $this->render('profile2.html.twig',[
             'profile'=>$profile
