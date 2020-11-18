@@ -91,4 +91,21 @@ class PageController extends AbstractController
 
         ]);
     }
+    /**
+     * @Route ("/profile2",name="profile2")
+     */
+
+    public function profile2(){
+        $profile = [
+            "firstname" => "Flantier",
+            "name" => "Noel",
+            "age" => 40,
+            "job" => "secret agent",
+            "active" => true
+        ];
+        return $this->render('profile2.html.twig',[
+            'profile'=>$profile
+            ]
+        );
+    }
 }

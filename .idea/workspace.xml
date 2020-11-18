@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="creation page profile" />
+    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="ajout de lien pour retourner a la page home">
+      <change afterPath="$PROJECT_DIR$/templates/profile2.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +190,7 @@
       <workItem from="1605615020957" duration="16809000" />
       <workItem from="1605638480957" duration="16000" />
       <workItem from="1605648153074" duration="43000" />
-      <workItem from="1605688578225" duration="7005000" />
+      <workItem from="1605688578225" duration="9512000" />
     </task>
     <task id="LOCAL-00001" summary="creation des page blog">
       <created>1605618578037</created>
@@ -242,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605698257917</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ajout de lien pour retourner a la page home">
+      <created>1605698509766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605698509766</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ajout de lien pour retourner a la page home">
+      <created>1605698566169</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605698566169</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +287,8 @@
     <MESSAGE value="creation page blog" />
     <MESSAGE value="ajout de la variable title" />
     <MESSAGE value="creation page profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation page profile" />
+    <MESSAGE value="ajout de lien pour retourner a la page home" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de lien pour retourner a la page home" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="419" key="#Composer" timestamp="1605614668424">
@@ -286,9 +307,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="745" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605615054130" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605698266050">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605698569844">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605698266050" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605698569844" />
   </component>
 </project>
