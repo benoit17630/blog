@@ -20,7 +20,9 @@ class ProfilController extends AbstractController
             "humour",
             "fille jolie",
             "banane",
-            "pomme"
+            "pomme",
+            "un james bond",
+            "mais en moin bien"
         ];
 
         return $this->render("skill.html.twig",[
