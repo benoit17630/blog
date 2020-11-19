@@ -119,12 +119,21 @@ class ProfilController extends AbstractController
                 "firstName" => "Loic",
                 "age" => 34,
                 "published" => false
+            ],
+            6 => [
+                "id" => 6,
+                "lastName" => "Dorignac",
+                "firstName" => "Loic",
+                "age" => 34,
+                "published" => false
             ]
+
         ];
 
         $agent =$agents[$id];
 
         return $this->render("agent.html.twig",[
+            'agents'=>$agents,
             'agent'=>$agent
         ]);
 
