@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="creation de la page agent">
+    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="ajout d une autre metode pour la boucle for et if">
+      <change afterPath="$PROJECT_DIR$/templates/agents.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProfilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProfilController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/agent.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agent.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +189,7 @@
       <workItem from="1605615020957" duration="16809000" />
       <workItem from="1605638480957" duration="16000" />
       <workItem from="1605648153074" duration="43000" />
-      <workItem from="1605688578225" duration="21900000" />
+      <workItem from="1605688578225" duration="24075000" />
     </task>
     <task id="LOCAL-00001" summary="creation des page blog">
       <created>1605618578037</created>
@@ -294,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605713607431</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ajout d une autre metode pour la boucle for et if">
+      <created>1605775807509</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605775807509</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +334,8 @@
     <MESSAGE value="creation de la page skill" />
     <MESSAGE value="ajout de 2 skill" />
     <MESSAGE value="creation de la page agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation de la page agent" />
+    <MESSAGE value="ajout d une autre metode pour la boucle for et if" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout d une autre metode pour la boucle for et if" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="419" key="#Composer" timestamp="1605614668424">
@@ -340,6 +350,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="706" y="341" key="#com.intellij.fileTypes.FileTypeChooser/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605708468921" />
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605778437824">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605778437824" />
     <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1605615878432">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -348,9 +362,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="745" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605708045959" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605713610633">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605775814614">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605713610633" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605775814614" />
   </component>
 </project>
