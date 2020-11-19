@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="ajout de 2 skill">
-      <change afterPath="$PROJECT_DIR$/templates/agent.html.twig" afterDir="false" />
+    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="creation de la page agent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProfilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProfilController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/agent.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agent.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +187,7 @@
       <workItem from="1605615020957" duration="16809000" />
       <workItem from="1605638480957" duration="16000" />
       <workItem from="1605648153074" duration="43000" />
-      <workItem from="1605688578225" duration="16809000" />
+      <workItem from="1605688578225" duration="21900000" />
     </task>
     <task id="LOCAL-00001" summary="creation des page blog">
       <created>1605618578037</created>
@@ -289,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605710125904</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="creation de la page agent">
+      <created>1605713607431</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605713607431</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +324,8 @@
     <MESSAGE value="profil2 avec false pour verifier si sa affiche bien mon text" />
     <MESSAGE value="creation de la page skill" />
     <MESSAGE value="ajout de 2 skill" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout de 2 skill" />
+    <MESSAGE value="creation de la page agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation de la page agent" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="419" key="#Composer" timestamp="1605614668424">
@@ -342,9 +348,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="745" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605708045959" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605710129800">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605713610633">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605710129800" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605713610633" />
   </component>
 </project>

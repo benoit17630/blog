@@ -10,21 +10,31 @@
 </head>
 <body>
 <main>
-    <div class="container text-center">
-
+    <div class=" text-center row justify-content-center align-items-center ">
+        <div class="text-center col-4 mt-4"><img src="{{ asset('assets/img/emilie.jpg') }}"  alt="photo d emilie" class="img-fluid "></div>
+        <div class="col-4">
         {% for agent in agents  %}
 
             {% if agent.published == true %}
 
-                <p class="text-center">{{ agent.lastName }} {{ agent.firstName }}</p>
+                <p class="text-center mt-4 col-12">{{ agent.lastName }} {{ agent.firstName }}</p>
 
-                <p class="text-center">age : {{ agent.age }}</p>
+                <p class="text-center col-12">age : {{ agent.age }}</p>
 
             {% endif %}
 
         {% endfor %}
-        <a class="btn btn-primary  mt-4" href="{{ path('home') }}">page d index</a>
+        </div>
+
+        <div class="text-center col-4"><img src="{{ asset('assets/img/ziva.jpg') }}"  alt="photo d emilie" class="img-fluid "></div>
+        <a class="btn btn-primary  mt-4 col-1 offeset-5" href="{{ path('home') }}">page d index</a>
     </div>
+
+    {% for agent in agents|filter(agent=>agent.published) %}
+        <p class="text-center mt-4">{{ agent.lastName }} {{ agent.firstName }}</p>
+
+        <p class="text-center">age : {{ agent.age }}</p>
+    {% endfor %}
 </main>
 </body>
 </html>
