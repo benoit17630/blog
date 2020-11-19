@@ -14,20 +14,29 @@
     <h1 class="text-center">{{ agent.firstName }} {{ agent.lastName }}</h1>
 
     <div class="row align-items-center justify-content-around">
+        {% if agent.id != agent.id|length %}
+
+                <div class="previous "><a class="btn btn-primary"  href="{{ path('agent_show', {id:agent.id-1}) }}"  title="Précédent">Précédent</a></div>
+
+        {% endif %}
 
         <p class="text-center">cette agent a : {{ agent.age }}</p>
 
         <div class="text-center col-4 mt-4"><img src="{{ asset('assets/img/emilie.jpg') }}"  alt="photo d emilie" class="img-fluid "></div>
+        {% if agent.id != agent|length %}
 
+        <div class="next"><a class="btn btn-primary" href="{{ path('agent_show', {id:agent.id+1}) }}" title="Suivant">Suivant</a></div>
+        {% endif %}
     </div>
 
     <div class="text-center">
 
-        <a class="btn btn-primary  mt-4 col-1 " href="{{ path('home') }}">page d index</a>
+        <a class="btn btn-primary  mt-4 col-2 " href="{{ path('home') }}">page d index</a>
 
-        <a class="btn btn-primary  mt-4 col-1 " href="{{ path('agents') }}">page des agents</a>
+        <a class="btn btn-primary  mt-4 col-2 " href="{{ path('agents') }}">page des agents</a>
 
     </div>
+
 </main>
 </body>
 </html>

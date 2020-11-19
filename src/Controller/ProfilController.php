@@ -5,6 +5,7 @@ namespace App\Controller;
 
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 class ProfilController extends AbstractController
@@ -79,9 +80,11 @@ class ProfilController extends AbstractController
 
     /**
      * @Route ("/agent/{id}", name="agent_show")
+     * @param $id
+     * @return Response
      */
     public function agentShow($id){
-        $agents2 = [
+        $agents = [
             1 => [
                 "id" => 1,
                 "lastName" => "Robert",
@@ -119,7 +122,7 @@ class ProfilController extends AbstractController
             ]
         ];
 
-        $agent =$agents2[$id];
+        $agent =$agents[$id];
 
         return $this->render("agent.html.twig",[
             'agent'=>$agent
