@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="creation de la page et des lien pour envoyer sur le page de chaque agent" />
+    <list default="true" id="91979cd1-5e72-4251-a180-7bb06bee0560" name="Default Changelist" comment="ajout de filtre pour page precedente et suivante">
+      <change afterPath="$PROJECT_DIR$/php-cs-fixer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/php-cs-fixer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/php-cs-fixer/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProfilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProfilController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +51,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -61,12 +77,9 @@
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
-      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/form" />
       <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
@@ -105,7 +118,6 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
       <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
@@ -143,19 +155,29 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
+      <path value="$PROJECT_DIR$/vendor/rector/rector" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/password-hasher" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kPuS6x1QbdjrdHV2OupK4zm4Ni" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -169,6 +191,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\site\blog\public\assets" />
       <recent name="C:\MAMP\htdocs\symfony\blog\templates" />
     </key>
   </component>
@@ -184,7 +207,9 @@
       <workItem from="1605615020957" duration="16809000" />
       <workItem from="1605638480957" duration="16000" />
       <workItem from="1605648153074" duration="43000" />
-      <workItem from="1605688578225" duration="24529000" />
+      <workItem from="1605688578225" duration="36009000" />
+      <workItem from="1655717985189" duration="2864000" />
+      <workItem from="1655720916665" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="creation des page blog">
       <created>1605618578037</created>
@@ -305,7 +330,42 @@
       <option name="project" value="LOCAL" />
       <updated>1605778992561</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="modife dans la page index car j ai changer un name dans mes routes">
+      <created>1605779110634</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605779110634</updated>
+    </task>
+    <task id="LOCAL-00019" summary="modife dans la page index car j ai changer un name dans mes routes">
+      <created>1605780419435</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605780419435</updated>
+    </task>
+    <task id="LOCAL-00020" summary="modife dans la page index car j ai changer un name dans mes routes">
+      <created>1605780615077</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605780615077</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ajout de filtre pour page precedente et suivante">
+      <created>1605790630794</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605790630794</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ajout de filtre pour page precedente et suivante">
+      <created>1605791634111</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605791634111</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,9 +381,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="creation des page blog" />
     <MESSAGE value="creation de la homepage et de la metode redirectoroute" />
     <MESSAGE value="ajout du dossier assets et quelque espace dans le code pour plus de lisibiliter" />
@@ -338,7 +398,9 @@
     <MESSAGE value="creation de la page agent" />
     <MESSAGE value="ajout d une autre metode pour la boucle for et if" />
     <MESSAGE value="creation de la page et des lien pour envoyer sur le page de chaque agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation de la page et des lien pour envoyer sur le page de chaque agent" />
+    <MESSAGE value="modife dans la page index car j ai changer un name dans mes routes" />
+    <MESSAGE value="ajout de filtre pour page precedente et suivante" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de filtre pour page precedente et suivante" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="419" key="#Composer" timestamp="1605614668424">
@@ -349,10 +411,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="709" y="363" key="#Notifications/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605614687843" />
-    <state x="706" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605708468921">
+    <state x="706" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605793016030">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="706" y="341" key="#com.intellij.fileTypes.FileTypeChooser/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605708468921" />
+    <state x="706" y="341" key="#com.intellij.fileTypes.FileTypeChooser/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605793016030" />
     <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605778437824">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -365,9 +427,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="745" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605708045959" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605779000085">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1605791638000">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605779000085" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605791638000" />
   </component>
 </project>

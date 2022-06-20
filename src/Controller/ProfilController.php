@@ -1,22 +1,16 @@
 <?php
 
-
 namespace App\Controller;
-
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 class ProfilController extends AbstractController
-
 {
-
-    /**
-     * @Route ("/skill", name="skill")
-     */
-
-    public function profil_skill(){
+    #[Route(path: '/skill', name: 'skill')]
+    public function profil_skill(): Response
+    {
         $skills=[
             "humour",
             "fille jolie",
@@ -25,18 +19,15 @@ class ProfilController extends AbstractController
             "un james bond",
             "mais en moin bien"
         ];
-
-        return $this->render("skill.html.twig",[
+        return $this->render("skill.html.twig", [
             "skills"=>$skills
         ]);
     }
 
 
-    //creation de la page agents
-    /**
-     * @Route("/agents", name="agents")
-     */
-    public function agents(){
+    #[Route(path: '/agents', name: 'agents')]
+    public function agents(): Response
+    {
         $agents = [
             1 => [
                 "id" => 1,
@@ -71,19 +62,19 @@ class ProfilController extends AbstractController
                 "published" => false
             ]
         ];
-        return $this->render("agents.html.twig",[
+        return $this->render("agents.html.twig", [
             "agents"=> $agents
         ]);
     }
 
     //creation de la page agent
-
     /**
-     * @Route ("/agent/{id}", name="agent_show")
      * @param $id
      * @return Response
      */
-    public function agentShow($id){
+    #[Route(path: '/agent/{id}', name: 'agent_show')]
+    public function agentShow($id): Response
+    {
         $agents = [
             1 => [
                 "id" => 1,
@@ -129,13 +120,10 @@ class ProfilController extends AbstractController
             ]
 
         ];
-
         $agent =$agents[$id];
-
-        return $this->render("agent.html.twig",[
+        return $this->render("agent.html.twig", [
             'agents'=>$agents,
             'agent'=>$agent
         ]);
-
     }
 }
