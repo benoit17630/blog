@@ -197,7 +197,7 @@
       <workItem from="1605648153074" duration="43000" />
       <workItem from="1605688578225" duration="36009000" />
       <workItem from="1655717985189" duration="2864000" />
-      <workItem from="1655720916665" duration="2601000" />
+      <workItem from="1655720916665" duration="2944000" />
     </task>
     <task id="LOCAL-00001" summary="creation des page blog">
       <created>1605618578037</created>
@@ -409,7 +409,35 @@
       <option name="project" value="LOCAL" />
       <updated>1655733288469</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="upgrade to symfony 5-4">
+      <created>1655733336956</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1655733336956</updated>
+    </task>
+    <task id="LOCAL-00032" summary="upgrade to symfony 5-4">
+      <created>1655733362402</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1655733362402</updated>
+    </task>
+    <task id="LOCAL-00033" summary="upgrade to symfony 5-4">
+      <created>1655733443534</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1655733443534</updated>
+    </task>
+    <task id="LOCAL-00034" summary="upgrade to symfony 5-4">
+      <created>1655733611810</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1655733611810</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
